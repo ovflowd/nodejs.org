@@ -18,4 +18,6 @@ export const parseRichTextIntoPlainText = (richText: string) =>
     // replaces emppty lines or lines just with spaces with an empty string
     .replace(/^\s*\n/gm, '')
     // replaces leading and trailing spaces from each line with an empty string
-    .replace(/^[ ]+|[ ]+$/gm, '');
+    .replace(/^[ ]+|[ ]+$/gm, '')
+    // replaces leading numbers and dots from each line with an empty string
+    .replace(/^\d+\.\s/gm, '');
