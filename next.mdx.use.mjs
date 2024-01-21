@@ -11,6 +11,7 @@ import UpcomingEvents from './components/MDX/Calendar/UpcomingEvents';
 import UpcomingSummits from './components/MDX/Calendar/UpcomingSummits';
 import MDXCodeBox from './components/MDX/CodeBox';
 import MDXCodeTabs from './components/MDX/CodeTabs';
+import SearchPage from './components/SearchPage';
 import WithBadge from './components/withBadge';
 import WithBanner from './components/withBanner';
 import WithNodeRelease from './components/withNodeRelease';
@@ -44,6 +45,8 @@ export const mdxComponents = {
   UpcomingSummits: UpcomingSummits,
   // Renders an container for Upcoming Node.js Events
   UpcomingEvents: UpcomingEvents,
+  // Renders a Search Page
+  SearchPage: SearchPage,
 };
 
 /**
