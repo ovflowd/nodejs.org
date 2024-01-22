@@ -11,7 +11,7 @@ import UpcomingEvents from './components/MDX/Calendar/UpcomingEvents';
 import UpcomingSummits from './components/MDX/Calendar/UpcomingSummits';
 import MDXCodeBox from './components/MDX/CodeBox';
 import MDXCodeTabs from './components/MDX/CodeTabs';
-import SearchPage from './components/SearchPage';
+import SearchPage from './components/MDX/SearchPage';
 import WithBadge from './components/withBadge';
 import WithBanner from './components/withBanner';
 import WithNodeRelease from './components/withNodeRelease';
